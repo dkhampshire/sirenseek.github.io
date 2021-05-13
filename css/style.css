@@ -113,6 +113,7 @@ nav li a:hover{
 	width: 100%;
 	height: 100%;
 
+
 	
 	
 	
@@ -123,22 +124,20 @@ nav li a:hover{
 .welcome{			
 	width: 100%;
 	height:100%;
+	position: absolute;
+	
 
 
 
 }
 .waves{
-height: 86.2rem; 
-
-left:-.375rem;
-margin: auto;
+height: 86.2rem;
 background-repeat: no-repeat;
-width: calc(100% + 1rem);
+width: calc(100% + 2rem);
 top: 13.75rem;
-margin-left: calc(100% -2rem);
-margin-right:calc(100% -2rem);
+background-position: -6px 0px;
 position: absolute;
-background-size: cover;
+background-size: 100%;
 background-image: url(../images/waves@2x.png);
 z-index: 2;
 box-sizing: border-box;
@@ -252,9 +251,9 @@ font-weight: 500;
 	box-sizing: border-box;
 	z-index: 1;
 	top: 12rem;
-left: 57.5rem;
-width: 23.25rem;
-height: 23.25rem;
+left: 68%;
+width: 24vw;
+height: auto;
 
 }
 
@@ -268,6 +267,7 @@ height: 23.25rem;
 	box-sizing: border-box;
 	width: 100%;
 	height: 56rem;
+
 	
 	background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 100%); 
 }
@@ -318,7 +318,7 @@ height: 23.25rem;
 	
 	}
 	.services{
-	margin: 1.75rem;
+		margin: 1.75rem;
 		position: relative;
 		box-sizing: border-box;
 		flex-basis: 10%;
@@ -331,7 +331,6 @@ height: 23.25rem;
 	font-weight: 500;
 	z-index: 5;
 	position: relative;
-
 	letter-spacing:.05rem;
 	line-height: 2rem;
 
@@ -341,17 +340,19 @@ height: 23.25rem;
 .footer-wrap{
 	width: 100%;
 	height: 100%;
-display: flex;
+	display: flex;
+	position: relative;
 }
 .footer{ 
-width: 85.375rem;
+width: calc(100% + 1rem);
 height: 20rem;
-flex: 1;
+margin-top: 2rem;
 position: relative;
 background-size: cover;
 background-position: center;
 background-image: url(../images/footer@2x.png);
 z-index: 5;
+background-repeat: no-repeat;
 box-sizing: border-box;
 
 }
