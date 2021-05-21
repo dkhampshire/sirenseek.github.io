@@ -95,7 +95,7 @@ body{z-index: 0;
 	box-sizing: border-box;
 	
 	background-repeat: no-repeat;
-	min-height: 67.5rem;
+	
 	background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 100%);}
 html{scroll-behavior: smooth;}
 /*------Header------*/
@@ -180,6 +180,10 @@ li a:hover{
 
 }
 
+#act{color: #EA2996;
+	text-decoration: underline;
+	text-underline-offset: .6rem;
+}
 
 /*------Welcome------*/
 
@@ -187,6 +191,7 @@ li a:hover{
 	width: 100%;
 	height: 100%;
 	margin-top: 5.531rem;
+	min-height: 67.5rem;
 }
 .welcome{			
 	display: inline-block;
@@ -213,7 +218,7 @@ li a:hover{
 	box-sizing: border-box;
 	height: 2.5rem;
 	border-radius: 5rem;
-	
+	margin: 0 auto;
 
 }
 .button-blue button{display: block;
@@ -256,9 +261,9 @@ li a:hover{
 
 /*------What We Do------*/
 
-.what-we-do-wrap{
+.what-we-do-wrap section{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	position: relative;
 	
 	z-index: 5;
@@ -274,8 +279,8 @@ li a:hover{
 	width: 100%;
 	height: 100%;
 	position: relative;
-	display: flex;
-	justify-content: center;
+	display: block;
+	text-align: center;
 	padding-right: 7em;
 	padding-left: 7em;
 	padding-top: 45%;
@@ -325,12 +330,11 @@ left: -12px;
 position: absolute;
 top: 18.5rem;
 z-index: 2;
-min-height: 100%;
+min-height: 1080px;
 background-size: cover;
 background-repeat: no-repeat;
 background-image: url(../images/waves.svg);
 box-sizing: border-box;
-transform: scale(x, y);
 }
 
 .sun img{
@@ -339,7 +343,7 @@ transform: scale(x, y);
 	z-index: 1;
 	top: 16rem;
 	height: auto;
-	left: 68%;
+	right:150px;
 	
 width: 24vw;
 
@@ -484,6 +488,53 @@ flex-wrap: wrap;
 	fill:#e9f1f2;
 }
 
+/*-----Employers----*/
+
+.employer-wrapper{
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	padding-top:16.5rem;
+	background: linear-gradient(242deg, rgba(0,6,84,1) 0%, rgba(103,0,141,1) 100%);
+
+}
+.employer{
+	position: relative;
+	width: 600px;
+	display: block;
+	text-align: center;
+	padding-left: 9.5em;
+	
+}
+.employer h2{
+	padding:2rem 0 2rem 0;
+}
+.employer h1{
+	height:0;
+}
+.employer p{
+	padding-bottom: 2em;
+	
+}
+.employer-fish img{
+	width: 500px;
+	z-index: 3;
+	display: block;
+	position: absolute;
+	right: 7em;
+	padding: 5px;
+	
+	
+}
+.wrap{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+
+}
+
 
 /*------Media-------*/
 
@@ -548,7 +599,7 @@ flex-wrap: wrap;
   	height: auto;
   }
 
-
+#act{color:#E9F1F2;}
 .sun{
 	display: none;
 }
@@ -559,13 +610,13 @@ flex-wrap: wrap;
 
 }
 
-.what-we-do{
+/*.what-we-do{
 	margin-top: 7rem;
 }
 
-.waves{
+/*.waves{
 	background-size: 100% 100%;
-}
+}*/
 
  .footer{background-image:none;
   		background-color: #0B0139;
@@ -579,6 +630,23 @@ flex-wrap: wrap;
   		width: 250px;
   	}
 
+
+
+
+
+
+.employer-fish img{
+	opacity: 30%;
+	width:800px;
+	top: -100px;
+	margin: 0 auto;
+	position: fixed;}
+
+.employer{
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 7em 0 7em;
+}
 }
 
 
