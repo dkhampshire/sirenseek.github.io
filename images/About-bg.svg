@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 3371" preserveAspectRatio="none">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_89" data-name="Rectangle 89" width="1920" height="3371" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.175" cy="0.251" r="0.947" gradientTransform="matrix(1, 0, 0, 0.526, 0, 0.129)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dc0074"/>
+      <stop offset="1" stop-color="#180050" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.898" cy="0.58" r="0.949" gradientTransform="matrix(1, 0, 0, 0.556, 0, 0.244)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03949e"/>
+      <stop offset="1" stop-color="#180050" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.183" cy="0.869" r="0.944" gradientTransform="matrix(1, 0, 0, 0.516, 0, 0.421)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0154c2"/>
+      <stop offset="1" stop-color="#180050" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="About-bg" clip-path="url(#clip-path)">
+    <g id="Group_31" data-name="Group 31" transform="translate(0 5)">
+      <path id="Union_30" data-name="Union 30" d="M3.031,3419.5V1157.323A41.685,41.685,0,0,0,0,1163.5V39.861S44.424-14,406.5,3.5s658.414,8.863,1041.8,36.364c97.646,7,177.021,6.383,241.494,5.764,19.064-.184,36.824-.367,53.37-.353,147.518.123,196.883-5.411,196.883-5.411v1117.05c2.067-1.547,3.031-2.414,3.031-2.414v2265Z" transform="translate(-3 -53.498)" fill="#180050"/>
+      <path id="Union_32" data-name="Union 32" d="M3.031,3419.5V1157.323A41.685,41.685,0,0,0,0,1163.5V39.861S44.424-14,406.5,3.5s658.414,8.863,1041.8,36.364c130.353,9.35,230.063,7.47,303.251,7.347,142.445-.24,188.5-7.347,188.5-7.347v1117.05c2.067-1.547,3.031-2.414,3.031-2.414v2265Z" transform="translate(-3 -53.498)" fill="url(#radial-gradient)"/>
+      <path id="Union_31" data-name="Union 31" d="M3.031,3419.5V1157.323A41.685,41.685,0,0,0,0,1163.5V39.861S44.424-14,406.5,3.5s658.414,8.863,1041.8,36.364c133.421,9.57,226.186,7.62,299.7,7.347,138.634-.516,192.045-7.347,192.045-7.347v1117.05c2.067-1.547,3.031-2.414,3.031-2.414v2265Z" transform="translate(7 -53.498)" fill="url(#radial-gradient-2)"/>
+      <path id="Union_33" data-name="Union 33" d="M3.031,3419.5V1157.323A41.685,41.685,0,0,0,0,1163.5V39.861S44.424-14,406.5,3.5s658.414,8.863,1041.8,36.364c114.114,8.185,204.037,8.1,274.007,8.009q12.114-.015,23.438-.017c146.167.049,194.3-7.992,194.3-7.992v1117.05c2.067-1.547,3.031-2.414,3.031-2.414v2265Z" transform="translate(-3 -53.498)" fill="url(#radial-gradient-3)"/>
+    </g>
+  </g>
+</svg>

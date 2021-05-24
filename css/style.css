@@ -25,8 +25,9 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav,{
 	display: block;
+}
 }
 body {
 	line-height: 1;
@@ -88,15 +89,19 @@ p{color: #E9F1F2;
 	font-weight: 400;
 	z-index: 5;
 	letter-spacing:.05rem;
-	line-height: 2rem;
+	
 text-align: center;}
-/*-----background gradient----*/	
-body{z-index: 0;
+
+input, textarea{
+	font-size: .75rem;
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 400;
+	z-index: 5;
+	letter-spacing:.05rem;
+	line-height: 2rem;
 	box-sizing: border-box;
-	
-	background-repeat: no-repeat;
-	
-	background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 100%);}
+}
+/*-----background gradient----*/	
 html{scroll-behavior: smooth;}
 /*------Header------*/
 .header{
@@ -184,18 +189,27 @@ li a:hover{
 	text-decoration: underline;
 	text-underline-offset: .6rem;
 }
-
+.bg{z-index: 0;
+box-sizing: border-box;
+position: absolute;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 1080px;
+background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 /*------Welcome------*/
 
 .wrapper{
-	width: 100%;
-	height: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
 	margin-top: 5.531rem;
-	min-height: 67.5rem;
+	padding: 0 7em 0 7em;
+	position: relative;
+	
 }
 .welcome{			
 	display: inline-block;
-	padding:9.375rem 7em 0 7em;
+	padding:9.375rem 0 0 0;
+	
 
 	
 }
@@ -262,10 +276,10 @@ li a:hover{
 /*------What We Do------*/
 
 .what-we-do-wrap section{
-	width: 100%;
-	height: auto;
+	max-width: 100%;
+	min-height: 100%;
 	position: relative;
-	
+	margin: 0 auto;
 	z-index: 5;
 
 	
@@ -275,15 +289,19 @@ li a:hover{
 	padding: 1.4rem 2em;
 }
 
-.what-we-do {z-index: 5;
-	width: 100%;
-	height: 100%;
+.what-we-do {z-index: 2;
+	max-width: 1920px;
+	min-height: 1937px;
+	margin-top: -100px;
 	position: relative;
 	display: block;
 	text-align: center;
-	padding-right: 7em;
-	padding-left: 7em;
-	padding-top: 45%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../images/waves.svg);
+	box-sizing: border-box;
+	padding: 900px 0 0 0;
+	
 	}
 .services-wrap{
 	width: 60%;
@@ -324,37 +342,43 @@ li a:hover{
 	height: 7.8rem;
 }
 
-.waves{
-width: calc(100% + 2rem);
-left: -12px;
-position: absolute;
-top: 18.5rem;
-z-index: 2;
-min-height: 100%;
+/*.waves{
+max-width: 100%;
+position: relative;
+top: 1rem;
+height: 791px;
+z-index: 3;
 background-size: cover;
 background-repeat: no-repeat;
 background-image: url(../images/waves.svg);
 box-sizing: border-box;
-}
+}*/
 
-.sun img{
+.sun{
 	position: absolute;
 	box-sizing: border-box;
 	z-index: 1;
-	top: 16rem;
-	height: auto;
-	right:150px;
 	
-width: 24vw;
+	height: auto;
+	right:5em;
+	top: 200px;
+background-image: url(../images/sun.svg);	
+	width: 551px;
+	height: 551px;
 
 
+}
+.wave-wrapper{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 
 /*------Footer------*/
 .footer{ 
 width: 100%;
-margin-top: 2rem;
 position: relative;
 background-size: cover;
 background-position: center;
@@ -367,10 +391,10 @@ padding: 16em 7em 0 7em;
 align-items: flex-start;
 justify-content: space-between;
 flex-wrap: wrap;
+}
 
-
-
-
+.home-foot{
+	margin-top:-300px;
 }
 
 .footer-left{
@@ -532,7 +556,199 @@ flex-wrap: wrap;
 	flex-direction: row;
 	width: 100%;
 	height: 100%;
+	padding-bottom: 5rem;
 
+}
+
+
+
+
+/*------Job Seekers------*/
+
+.job-seeker-wrapper{
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	
+	background: linear-gradient(0deg, rgba(3,5,85,1) 0%, rgba(0,55,156,1) 100%);
+}
+.job-seeker{
+	position: relative;
+	width: 1000px;
+	display: block;
+	text-align: center;
+	margin:0 auto;
+	padding: 16.5rem 7em 0 7em;
+}
+.job-seeker h2{
+	padding: 2rem 0 2rem 0;
+}
+.job-seeker h1{
+	height: 0;
+}
+.seeker-bg{
+	position: relative;
+	display: flex;
+	background-position:center;
+	background-size: cover;
+	flex-direction: row;
+	max-width: 100%;
+	min-height: 1300px;
+	background-repeat: no-repeat;
+	background-image: url(../images/seeker-bg.svg);
+}
+.seeker-bg .button-pink{
+	padding-right: 6rem;
+}
+
+/*------About-------*/
+.about-wrapper{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-size: 100% 100%;
+	z-index: 1;
+	box-sizing: border-box;
+	display: inline-block;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-image:url(../images/About-bg.svg);
+}
+.about-bg{
+	position: relative;
+	padding: 0 15em 0 15em;
+	background-position:center;
+	background-size: cover;
+	max-width: 100%;
+	top:100px;
+	bottom: 0;
+	height: 3000px;
+	background-repeat: no-repeat;
+	background-image: url(../images/ship.svg);
+
+}
+.about{
+	position: relative;
+	width: 500px;
+	display: block;
+	text-align: left;
+	padding: 16.5rem 0 0 0 ;
+}
+.about p{
+	padding-bottom: 2em;
+text-align: left;
+padding-top: 61px;}
+.about h1{
+	height: 0;
+
+}
+.about-pic img{
+	width: 250px;
+	z-index: 3;
+	padding: 10px;
+	top: 100px;
+	position: relative;
+	
+}
+.about-bg .wrap{
+	width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#fish img{
+	width: 350px;
+}
+#turtle img{
+	width: 400px;
+	top: 150px;
+}
+
+/*------Contact------*/
+
+.bg-modal{
+	width:100%;
+	height:100%;
+	background-color: rgba( 0, 0, 0, 0.7);
+	justify-content:center;
+	align-items: center;
+	position: fixed;
+	top:0;
+	display:none;
+	backdrop-filter: blur(8px);
+
+}
+.contact-modal{
+	width: 1100px;
+	height: auto;
+	padding: 73px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	
+	position: relative;
+	background: radial-gradient(circle, rgba(0,204,255,1) 0%, rgba(101,136,227,1) 100%);
+
+}
+.close{
+	position: absolute;
+	top: 0;
+	left: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	color:#E9F1F2;
+}
+.contact-modal h1::after{
+	display: none;
+}
+.contact-modal .button-pink{
+	padding-right: 6rem;
+}
+.contact-modal p {
+	padding: 2em 73px;
+	text-align: left;
+}
+.form-left{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 0 73px;
+}
+.form-right{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 0 73px;
+}
+.form-left input{
+	border:none;
+	margin: 1em 0;
+	padding: .5em .7em;
+	border-radius: 10px;
+	
+}
+.form-right input, .form-right textarea{
+	border:none;
+	margin: 1em 0;
+	padding: .5em .7em;
+	border-radius: 10px;
+}
+#message{
+	padding-bottom: 9.220em;
+}
+#submit-button {
+	position: absolute;
+	margin:0;
+	right: 73px;
+	bottom:73px;
+	padding-right:73px;
+	box-sizing: border-box;
 }
 
 
@@ -622,19 +838,16 @@ flex-wrap: wrap;
   		background-color: #0B0139;
   		padding: 3em 7em 0 7em;
   		justify-content: center;
-
-
+  		
   	}
   	.footer-left, .footer-right{
   		margin: 0 auto;
   		width: 250px;
   	}
 
-
-
-
-
-
+  	.home-foot{
+  		margin-top: -1px;
+  	}
 .employer-fish img{
 	opacity: 30%;
 	width:800px;
@@ -647,6 +860,18 @@ flex-wrap: wrap;
 	width: 100%;
 	padding: 0 7em 0 7em;
 }
+
+	.job-seeker{
+	margin: 0 auto;
+	width: 100%;
+	padding: 16.5rem 7em 0 7em;}
+
+	.about-pic{
+		display: none;
+	}
+
+
+
 }
 
 
@@ -659,9 +884,7 @@ flex-wrap: wrap;
 	margin-left: 1.219rem;
 }	
 
-.what-we-do{
-	margin-top: 20rem;
-}
+
 
 
   h1 {
