@@ -751,7 +751,29 @@ padding-top: 61px;}
 	box-sizing: border-box;
 }
 
+/*------thankyou-------*/
+.thankyou-wrapper{
+		position: relative;
+	
+	
+	box-sizing: border-box;
+	display: inline-flex;
+	background-repeat: no-repeat;
+	text-align: center;
+	align-items: center;
+	background: black;
+	justify-content: center;
+	flex-direction: column;
+width: 100vw;
+	height: 100vh;
+}
 
+
+}
+.thankyou{
+	
+	position: absolute;
+}
 /*------Media-------*/
 
 @media only screen and (max-width: 1100px){
