@@ -102,6 +102,7 @@ input, textarea{
 	line-height: 2rem;
 	box-sizing: border-box;
 }
+a {text-decoration: none;}
 /*-----background gradient----*/	
 html{scroll-behavior: smooth;}
 /*------Header------*/
@@ -219,6 +220,8 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	align-items: flex-start;
 	justify-content: center;
 	padding-top: 1.9rem;
+	z-index: 10;
+	position: relative;
 }
 .button-pink button{display: block;
 	color: #E9F1F2;
@@ -228,12 +231,13 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	text-align: center;
 	font-weight: 500;
 	text-decoration: none;
-	border-style: none;
+	border: 2px solid transparent;
 	width: 9.375rem;
 	box-sizing: border-box;
 	height: 2.5rem;
 	border-radius: 5rem;
 	margin: 0 auto;
+	transition: 0.8s;
 
 }
 .button-blue button{display: block;
@@ -244,23 +248,30 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	text-align: center;
 	font-weight: 500;
 	text-decoration: none;
-	border-style: none;
+	border: 2px solid transparent;
 	width: 9.375rem;
 	box-sizing: border-box;
 	height: 2.5rem;
 	border-radius: 5rem;
+	transition: 0.8s;
 }
 
 
 .scroller{
-	pointer-events: auto;
+	pointer-events:auto;
 	z-index: 3;
 	box-sizing: border-box;
 	width:2.438rem;
 	height:2.313rem;
 	top: 3.125rem;
 	position: relative;
-	
+	fill: #E9F1F2;
+	transition: .8s;
+}
+.scroller:hover{
+	fill:transparent;
+	stroke: #E9F1F2;
+	width: 3.2rem;
 }
 .seeking-wrap{
 	
@@ -272,11 +283,20 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 }
 .pink{color:#EA2996;}
 
-}
-.button-blue > button:hover{
-	filter: brightness(50%);
+
+.button-pink button:hover {
+	color:#EA2996;
+	border: 2px solid #EA2996;
+	background-color: transparent;
 
 }
+.button-blue button:hover {
+	color:#297CEA;
+	border: 2px solid #297CEA;
+	background-color: transparent;
+
+}
+
 
 /*------What We Do------*/
 
