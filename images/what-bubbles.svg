@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 139.446 597.497">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.241" y1="2.49" x2="1.201" y2="-0.49" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#060f36"/>
+      <stop offset="1" stop-color="#003eac"/>
+    </linearGradient>
+  </defs>
+  <g id="what-bubbles" transform="translate(-1639.218 -1279.001)">
+    <g id="bubbles" transform="translate(1683.769 1304.001)">
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="33.283" cy="35.943" rx="33.283" ry="35.943" transform="translate(-44.55 -25)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="19.366" cy="18.861" rx="19.366" ry="18.861" transform="translate(41.499 116.034)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="22.824" cy="23.751" rx="22.824" ry="23.751" transform="translate(-23 200.906)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="13.141" cy="13.971" rx="13.141" ry="13.971" transform="translate(34.816 248.394)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="10.216" cy="9.67" rx="10.216" ry="9.67" transform="translate(-2.784 327.84)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="bubbles-2" data-name="bubbles" transform="translate(1689.997 1886.448) rotate(-159)">
+      <ellipse id="Ellipse_6-2" data-name="Ellipse 6" cx="22.126" cy="23.894" rx="22.126" ry="23.894" transform="translate(0 199.631)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_7-2" data-name="Ellipse 7" cx="12.874" cy="12.539" rx="12.874" ry="12.539" transform="translate(57.204 128.585)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_8-2" data-name="Ellipse 8" cx="15.173" cy="15.79" rx="15.173" ry="15.79" transform="translate(14.326 65.662)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_9-2" data-name="Ellipse 9" cx="8.736" cy="9.288" rx="8.736" ry="9.288" transform="translate(52.761 47.095)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_10-2" data-name="Ellipse 10" cx="6.792" cy="6.428" rx="6.792" ry="6.428" transform="translate(27.766 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

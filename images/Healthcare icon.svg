@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 127.07 127.07">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.893" cy="1" r="0.807" gradientTransform="translate(0 0.07) scale(1 0.93)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0c"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.725" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4242"/>
+      <stop offset="1" stop-color="#0a0a4b"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.268" cy="0.197" r="0.773" gradientTransform="matrix(0.716, 0.698, -0.889, 0.913, 0.252, -0.17)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.079" stop-color="#fff"/>
+      <stop offset="0.084" stop-color="#65eaff"/>
+      <stop offset="0.764" stop-color="#5ea0e3"/>
+      <stop offset="0.767" stop-color="#0047ff"/>
+      <stop offset="0.893" stop-color="#1b5aff"/>
+      <stop offset="1" stop-color="#0080ff"/>
+    </radialGradient>
+  </defs>
+  <g id="Healthcare_icon" data-name="Healthcare icon" transform="translate(0 0)">
+    <path id="Path_11" data-name="Path 11" d="M63.535,0A63.535,63.535,0,1,1,18.609,18.609,63.535,63.535,0,0,1,63.535,0Z" transform="translate(0 0)" fill="#8ccec3"/>
+    <path id="Healthcare_icon-2" data-name="Healthcare icon" d="M63.535,0A63.535,63.535,0,1,1,18.609,18.609,63.535,63.535,0,0,1,63.535,0Z" transform="translate(0 0)" fill="url(#radial-gradient)" style="mix-blend-mode: color;isolation: isolate"/>
+    <g id="Group_9" data-name="Group 9" transform="translate(22.144 34.253)">
+      <path id="Path_12" data-name="Path 12" d="M4485.155,2774.378s37.582-27.3,41-44.378-17.083-27.37-27.333-23.954-13.665,13.666-13.665,13.666-3.417-10.249-13.667-13.666-30.749,6.871-27.333,23.954,41,44.378,41,44.378" transform="translate(-4443.776 -2705.394)" fill="#e45c5c"/>
+      <path id="Union_1" data-name="Union 1" d="M17.143,40.928V30.857H6.857a6.857,6.857,0,0,1,0-13.714H17.143V7.071a7.071,7.071,0,0,1,14.143,0V17.143h9.857a6.857,6.857,0,1,1,0,13.714H31.286V40.928a7.071,7.071,0,1,1-14.143,0Z" transform="translate(39.933 21.344)" fill="#ffd3d3"/>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(22.144 34.253)" style="mix-blend-mode: overlay;isolation: isolate">
+      <path id="Path_12-2" data-name="Path 12" d="M4485.155,2774.378s37.582-27.3,41-44.378-17.083-27.37-27.333-23.954-13.665,13.666-13.665,13.666-3.417-10.249-13.667-13.666-30.749,6.871-27.333,23.954,41,44.378,41,44.378" transform="translate(-4443.776 -2705.394)" fill="url(#linear-gradient)"/>
+      <path id="Union_1-2" data-name="Union 1" d="M17.143,40.928V30.857H6.857a6.857,6.857,0,0,1,0-13.714H17.143V7.071a7.071,7.071,0,0,1,14.143,0V17.143h9.857a6.857,6.857,0,1,1,0,13.714H31.286V40.928a7.071,7.071,0,1,1-14.143,0Z" transform="translate(39.933 21.344)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Healthcare_icon-3" data-name="Healthcare icon" d="M63.535,0A63.535,63.535,0,1,1,18.609,18.609,63.535,63.535,0,0,1,63.535,0Z" transform="translate(0 0)" fill="url(#radial-gradient-2)" style="mix-blend-mode: overlay;isolation: isolate"/>
+  </g>
+</svg>

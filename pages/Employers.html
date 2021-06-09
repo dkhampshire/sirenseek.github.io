@@ -25,7 +25,7 @@
 			<li><a href="Employers.html" id="act">Employers</a></li>
 			<li><a href="Job-Seekers.html">Job Seekers</a></li>
 			<li><a href="About.html">About</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#contact" data-target="#contact">Contact</a></li>
 		</ul>
 	</nav>
 	<button class="hamburger" id="hamburger">
@@ -40,8 +40,12 @@
 		<h1>Seeking Talent?</h1>
 		<h2>We're On The Job.</h2>
 		<p>We believe all of our valued clients are unique with their own individual needs. By working with SirenSeek, you will gain access to a recruitment specialist who will operate as your own, personal trusted advisor. Once we assess and develop a tailored strategy specifically for your organization, we’ll go to work for you right away!</p>
-		<div class="button-pink">
-		<button>Ready To Hire?</button></div>
+		<div class="button-pink" >
+			 <a href="#employer-contact" data-target="#employer-contact">
+			 	<button>Ready To Hire?</button>
+			 </a>
+			
+		</div>
 					
 	</div>
 	<div class="employer-fish">
@@ -57,7 +61,7 @@
 			<div class="footer-left">
 				<p>Contact Us</p>
 				<ul>
-					<li><a href=mailto:"info@sirenseek.com" type="mail"><div class="mail"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 28.734 18.677">
+					<li><a href="mailto:info@sirenseek.com" type="mail"><div class="mail"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 28.734 18.677">
   <g id="mail" transform="translate(-0.001 0)">
     <path id="Union_27" data-name="Union 27" d="M-2036.858-2250.489h-28.734v-17.437l14.45,10.836,14.285-10.815v17.415h0Zm-28.734-18.677h28.734l-14.3,10.826Z" transform="translate(2065.592 2269.165)"/>
   </g>
@@ -113,17 +117,88 @@
 		</div>
 </footer>
 
-	
 
-	
+<!-- Contact-->
+<div class="bg-modal" id="contact">
+	<div class="contact-modal">
+		<div class="close">+</div>
 
-	
+
+		
+
+		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdG1RrWTD8PTOGedEaORy4i-dzCgLlvVDpOSlpUkCdIqUnl8w/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+			<div class="pink-bubble"><img src="../images/pink-bubble.svg" alt="pink-bubble"></div>
+			<div class="blue-bubble"><img src="../images/blue-bubble.svg" alt="blue-bubble"></div>
+			<h1>Contact</h1>
+			<div class="button-wrap">
+					<div class="button-pink">
+						<button>Find Talent</button>
+					</div>
+					<div class="button-blue">
+						<button>Find Work</button>
+					</div>
+			</div>
+			<p>Not an employer or job seeker? Fill out the form below and one of our recruiters will contact you shortly.  </p>	
+			<div class="form-wrap">
+				<div class="form-left">
+					<input type="text" placeholder="Name*" name="entry.1129065347" required>
+					<input type="text" placeholder="Organization" name="entry.452893025">
+					<input type="E-mail" placeholder="E-mail" name="entry.1955283442" required>
+					<input type="tel" placeholder="Phone*" name="entry.886077003">
+				</div>
+				<div class="form-right">
+					<input type="text" placeholder="Subject" name="entry.1625871744">
+					<textarea type="text" placeholder="Message" name="entry.1302524457" required id="message"></textarea>
+					<div class="button-pink" id="submit-button">
+						<button type="submit">Submit</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
 </div>
+		<!----------javascript for Form to Email------------>
+		
 
 
+<!-- Employer Contact-->
+<div class="bg-modal" id="employer-contact">
+	<div class="contact-modal">
+		<div class="close">+</div>
 
 
+		
 
+		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeDwzYJYZx1F7bopegv8B8Sf5wZD9E-80_DxeipABGK1iQl9w/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+			<div class="pink-bubble"><img src="../images/pink-bubble.svg" alt="pink-bubble"></div>
+			<div class="blue-bubble"><img src="../images/blue-bubble.svg" alt="blue-bubble"></div>
+			<h1>Employer Contact</h1>
+			
+			<p>Fill out the following form and one of our recruiters will contact you shortly.</p>	
+			<div class="form-wrap">
+				<div class="form-left">
+					<input type="text" placeholder="Name*" name="entry.1129065347" required>
+					<input type="text" placeholder="Organization" name="entry.452893025">
+					<input type="E-mail" placeholder="E-mail" name="entry.1955283442" required>
+					<input type="tel" placeholder="Phone*" name="entry.886077003">
+				</div>
+				<div class="form-right">
+					<input type="text" placeholder="Subject" name="entry.1625871744">
+					<textarea type="text" placeholder="Message" name="entry.1302524457" required id="message"></textarea>
+					<div class="button-pink" id="submit-button">
+						<button type="submit">Submit</button>
+					</div>
+				</div>
+			</div>
+			
+		</form>
+		
+	</div>
+</div>
+<!----------javascript for Form to Email------------>
+<script src="../js/script.js" type="text/javascript">var submitted=false;</script>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+		onload="if(submitted) {window.location='thankyou.html';}"></iframe>
 <script src="../js/script.js" type="text/javascript"></script>
 </body>
 </html>

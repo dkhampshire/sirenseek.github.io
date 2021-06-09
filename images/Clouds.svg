@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1097.399 342.179"
+  preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.351" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#000654"/>
+      <stop offset="1" stop-color="#ba00ae"/>
+    </linearGradient>
+  </defs>
+  <g id="Clouds" transform="translate(-634.417 -103.545)">
+    <path id="Path_213" data-name="Path 213" d="M2984.719,229.749c0,9.577,5.277-27.494-139.5-41.081s-224.981,45.686-222.7,14,123.064-117.484,181.3-110.059-205.923,76.311-127.146,96.061c25.524,6.4,130.37-42.519,168.549-38.31C2924.848,159.136,2984.719,220.171,2984.719,229.749Z" transform="translate(-1662.834 214.414)" opacity="0.59" fill="url(#linear-gradient)"/>
+    <path id="Path_214" data-name="Path 214" d="M2899.844,143.906c-15.969,17.418-275.262,15.338-275.262,15.338s85.865-7.433,136.481-23.841,20.047-49.277,63.874-45.831S2915.813,126.488,2899.844,143.906Z" transform="translate(-1171.213 177.151)" opacity="0.59" fill="url(#linear-gradient)"/>
+    <path id="Path_215" data-name="Path 215" d="M3054.258,92.606S2885.772,203.153,2798.3,222.6s105.281-69.78,47.584-89.283-218.638,54.221-218.638,54.221,72.222-30.867,110.947-76.886,135.866-71.251,190.338-72.5-62.347,85.951-24.168,90.16C2983.992,137.083,3054.258,92.606,3054.258,92.606Z" transform="translate(-1992.834 65.414)" opacity="0.59" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
