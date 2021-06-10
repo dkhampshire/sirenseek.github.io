@@ -219,12 +219,13 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	padding: 0 7em 0 7em;
 	position: relative;
 	
+	/*! min-width: 100px; */
 }
 .welcome{			
 	display: inline-block;
 	padding:9.375rem 0 0 0;
 	position: relative;
-	z-index: 3;
+	/*! z-index: 3; */
 
 }
 .button-wrap{
@@ -232,7 +233,7 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-top: 1.9rem;
+	padding: 1.9rem 0;
 	z-index: 10;
 	position: relative;
 }
@@ -294,7 +295,7 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 	width: 3rem;
 }
 
-.seeking-wrap h1{
+.seeking-wrap {
 	
 	align-items: center;
 	box-sizing: border-box;
@@ -400,7 +401,7 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 		justify-content: center;
 		text-align: center;
 		z-index: 5;
-    width: 7.8rem;
+    
     
 
 }
@@ -408,9 +409,10 @@ background: linear-gradient(180deg, rgba(0,6,84,1) 0%, rgba(186,0,174,1) 60%);}
 
 .services p{
 	font-weight: 500;
-	padding: 1.4rem 0 0 0;
+	padding: 1.4rem 0 3rem 0;
 	position: relative;
 	margin: 0 auto;
+	line-height: 2rem;
 
 }
 .services object{
@@ -619,6 +621,7 @@ flex-wrap: wrap;
 
 .employer .button-pink button {
 	width: 12rem;
+	margin: 0 auto;
 }
 
 
@@ -663,7 +666,7 @@ flex-wrap: wrap;
 	background-image: url(../images/seeker-bg.svg);
 }
 .seeker-bg .button-pink{
-	padding-right: 6rem;
+	padding: 0 3rem;
 }
 
 .job-seeker .button-pink button{
@@ -684,24 +687,27 @@ flex-wrap: wrap;
 	display: inline-block;
 	background-repeat: no-repeat;
 	text-align: center;
-	background-image:url(../images/About-bg.svg);
+	background-position: center;
+	background-image: url(../images/About-bg.svg);
+	overflow: hidden;
 }
 .about-bg{
 	position: relative;
-	padding: 0 15em 0 15em;
+	padding: 0 7em 0 7em;
 	background-position:center;
 	background-size: cover;
 	max-width: 100%;
 	top:100px;
 	bottom: 0;
-	height: 3000px;
+	min-height: 3000px;
 	background-repeat: no-repeat;
 	background-image: url(../images/ship.svg);
+	overflow-x: hidden;
 
 }
 .about{
 	position: relative;
-	width: 500px;
+	width: 700px;
 	display: block;
 	text-align: left;
 	padding: 16.5rem 0 0 0 ;
@@ -727,6 +733,7 @@ padding-top: 61px;}
 	height: auto;
 	align-items: center;
 	justify-content: space-between;
+	
 
 }
 #fish img{
@@ -888,12 +895,12 @@ padding-top: 61px;}
 	}
 	.clouds{
 	width: 800px;
+		top: -100px
 	}
 	.what-bubbles-left, .what-bubbles-right{
 	width: 6%;
 	}
-	.what-we-do{
-padding: 800px 0 0 0;
+	
 }
 
 @media only screen and (max-width: 1200px){
@@ -907,13 +914,13 @@ padding: 800px 0 0 0;
 
 }
 	.button-blue button{
-	margin: 1.9rem 1.219rem;
+	margin: 1rem 1.219rem;
 }
 .button-pink button{
-	margin: 1.9rem 1.219rem;
+	margin: 1rem 1.219rem;
 }
 .button-wrap{
-	padding-top:0;
+	padding: .9rem;
 	}
 	nav li{
 		margin-left: 1rem;
@@ -924,7 +931,42 @@ padding: 800px 0 0 0;
 		width: 90%;
 	}
 
+	.what-we-do{
+		padding:600px 0 0 0;
+		min-height: 1000px;
+	}
 	
+	.employer-fish img{
+	opacity: 30%;
+	width: 1200px;
+	top:10px;
+	left:50%;
+		transform: translateX(-50%);
+	margin: 0 auto;
+	position: fixed;}
+
+.employer{
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 2em 0 2em;
+	
+}
+
+	.job-seeker{
+	margin: 0 auto;
+	width: 100%;
+	padding: 16.5rem 7em 0 7em;}
+
+	.about-pic{
+		display: none;
+	}
+	.about-bg{
+		padding: 0 2em 0 2em;
+	}
+	.about{
+		padding: 7rem 0;
+	}
+
 }
 
 
@@ -963,10 +1005,11 @@ padding: 800px 0 0 0;
 	display: block;
 	z-index: 2;
 }
-
+	.welcome section{
+		z-index: 1;
+	}
 .header{
   	padding:0 2em;
-  	
   	justify-content: space-around;
   }
   .logo img{
@@ -976,23 +1019,32 @@ padding: 800px 0 0 0;
 #act{color:#E9F1F2;}
 
 .what-we-do{
-	background-size: 800% 100%;
+	background-size: cover;
 	background-position: center;
 	min-height: 0;
+	background-image: url(../images/waves1.svg);
+  padding: 400px 0 0 0;
+	margin-top:50px;
+
+		
 }
+
 	.sun{
-	width: 400px;
-	height: 400px;
-	top: 110%;
+		opacity: 90%;
+	width: 600px;
+	height: 600px;
+	top:100%;
 	left: 50%;
 	transform: translate(-50%);
 		
 	}	
 	.clouds{
-		left:2em;
+		left:-5em;
 		right:2em;
-		top: -13em;
-		width: 2500px;
+		top: -15em;
+		width: 1000px;
+		opacity: 100%;
+			transform: skew(-65deg, -5deg) rotate(.5turn) ;
 			
 	}
 	 .welcome{
@@ -1006,12 +1058,12 @@ padding: 800px 0 0 0;
 	position: relative;
 	display: flex;
 	justify-content: center;
-	padding-right: 2em;
-	padding-left: 2em;
+	padding-right: 7em;
+	padding-left: 7em;
 
   }
 	h1 {
-  	font-size: 3rem;
+  	font-size: 2.5rem;
   }
   h1::after{
   	height: 3px;
@@ -1019,7 +1071,18 @@ padding: 800px 0 0 0;
 	 h2{
   	font-size: 1.5rem;
   }
+	.services{
+		margin: 1rem 5%;
+		width: 100%;
+    
+
+
+
+}
+.services object{
+	width: 6rem;
 	
+}
 	
 }
 @media only screen and (max-width: 768px){
@@ -1028,12 +1091,37 @@ padding: 800px 0 0 0;
 		margin-top:100px;
 		min-height: unset;
 	}	
-	.wrapper h1{
-		padding: 0 ;
-		width: 100%;
+
+
+	.seeking-wrap{
+		padding:0;
 	}
+	.wrapper{
+		padding: 0 2em 0 2em;
+	}
+	.footer-right{
+  		margin-top: 30px;
+  	}
+  	 .copyright p{margin-top:30px;
+  	 	}
+  	 .copyright{
+			 order:3;
+	}
+.footer{background-image:none;
+  		background-color: #0B0139;
+  		padding: 3em 2em 0 2em;
+  		justify-content: center;
+  		
+  	}
+  	.footer-left, .footer-right{
+  		margin: 0 auto;
+  		width: 250px;
+  	}
+
+  	.home-foot{
+  		margin-top: -4px;
+  	}
 		
-	
 }
 @media only screen and (max-width: 568px){
 
