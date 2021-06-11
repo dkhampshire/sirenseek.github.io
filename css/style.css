@@ -1191,10 +1191,12 @@ text-align: left;
 		padding: 0;
 	}
 	.what-we-do{
-		padding: 600px 0 0 0;
-		background-position-x: 50%;
-		background-size: 200% 100%;
-		
+		padding: 700px 0 0 0;
+		background-position-x: 70%;
+		background-size: 100% 100%;
+		-webkit-background-size: 1920px 100%;
+      -moz-background-size: 1920px 100%;
+      -o-background-size: 1920px 100%;
 		margin-top: -100px;
 
 	}	
