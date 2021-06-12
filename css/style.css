@@ -727,7 +727,7 @@ flex-wrap: wrap;
 	padding-bottom: 2em;
 text-align: left;
 	padding-top: 2rem;
-	width: 40rem;
+	max-width: 40rem;
 }
 .about h1{
 	height: 0;
@@ -979,16 +979,18 @@ text-align: left;
 	width: 100%;
 	padding: 16.5rem 7em 0 7em;}
 
-	.about-pic {
-	display: none;
-		
+	.about-pic{
+		padding: 0 2em;
+		margin-top:-25%
 	}
 	.about-bg{
-		padding: 0 2em 0 2em;
+		padding: 0 7em 0 7em;
 	}
 	.about{
-		padding: 7rem 0;
+		padding: 16.5rem 0;
+		
 	}
+
 	.contact-modal{
 		max-width: 100vw;
 		max-height: 100vh;
@@ -998,6 +1000,10 @@ text-align: left;
 		display: none;
 	
 }
+	.close{
+		font-size: 3rem;
+		top: 3%;
+	}
 
 }
 
@@ -1054,6 +1060,7 @@ text-align: left;
 	background-position: center;
 	background-size: cover;
   padding: 650px 0 0 0;
+	
 		
 }
 	.services-wrap{
@@ -1124,6 +1131,17 @@ text-align: left;
 	width: 6rem;
 	
 }
+	.about-pic {
+	display: none;
+		
+	}
+	.about p{
+		max-width: 100%;
+	}
+	.about{
+		padding-bottom: 0;
+	}
+	
 	
 }
 @media only screen and (max-width: 768px){
@@ -1183,10 +1201,15 @@ text-align: left;
 		padding: 2em;
 		text-align: center;
 	}
+	.about-bg{
+		padding: 0 2em;
+	}
 	
 }
 @media only screen and (max-width: 568px){
-
+	.what-pad{
+		width: 100%;
+	}
 	.services-wrap{
 		padding: 0;
 	}
@@ -1198,6 +1221,7 @@ text-align: left;
       -moz-background-size: 1920px 100%;
       -o-background-size: 1920px 100%;
 		margin-top: -100px;
+		
 
 	}	
 }
