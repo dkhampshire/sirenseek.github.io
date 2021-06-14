@@ -209,7 +209,7 @@ background-attachment:  fixed;
 	background-repeat: no-repeat;
 	height: 300px;
 	top: -1em;
-	right: 7em;
+	right: 10em;
 	position: absolute;
 	z-index: 1;
 }
@@ -424,7 +424,7 @@ background-attachment:  fixed;
 	line-height: 2rem;
 
 }
-.services object{
+.services object, .services svg{
 	width: 7.8rem;
 	z-index: 5;
 	
@@ -1127,7 +1127,7 @@ text-align: left;
 		width: 100%;
 	}
 
-.services object{
+.services object, .services svg{
 	width: 6rem;
 	
 }
@@ -1221,12 +1221,16 @@ text-align: left;
       -moz-background-size: 1920px 100%;
       -o-background-size: 1920px 100%;
 		margin-top: -100px;
-		
-
-	}	
+			}	
 }
 
+/*---------anime.js classes-------*/
+.plus, .big-gear, .small-gear{
+	transform-origin: 50% 50%;
+  	transform-box: fill-box;
 
+
+}
 
 
 
