@@ -1087,12 +1087,10 @@ text-align: left;
 	transform: translate(-50%);
 		
 	}	
-	.clouds svg{
-		transform: scaleY(5);
-	top:-20em;
-	
-	   
-	}
+	.clouds{
+		left:-2em;
+		right:2em;
+		top: -3em;
 		
 		
 			
@@ -1153,11 +1151,6 @@ text-align: left;
 	}
 	.about{
 		padding-bottom: 0;
-	}
-	.clouds1 svg{
-		left:0;
-		width:60rem;
-		transform: scaleY(2);
 	}
 	
 	
@@ -1222,7 +1215,10 @@ text-align: left;
 	.about-bg{
 		padding: 0 2em;
 	}
-
+	.clouds1 svg{
+		left:0;
+	}
+	
 }
 @media only screen and (max-width: 568px){
 	.what-pad{
