@@ -38,7 +38,34 @@
 <div class="wrapper">
 	<div class="sun">
 	</div>
-	<div class="clouds"></div>
+	<div class="clouds"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2233.847 158.446" preserveAspectRation="none">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.351" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#000654"/>
+      <stop offset="1" stop-color="#ba00ae"/>
+    </linearGradient>
+  </defs>
+  <g id="Clouds" class="cloud-move" transform="translate(-634.417 -103.545)">
+    <path id="Path_213" data-name="Path 213" d="M3272.511,173.364c0,5.653,9.469-16.227-250.323-24.247s-403.72,26.964-399.628,8.262S2843.4,88.038,2947.891,92.42s-369.522,45.04-228.159,56.7c45.8,3.777,233.945-25.1,302.456-22.611C3165.073,131.687,3272.511,167.711,3272.511,173.364Z" transform="translate(-1287.394 87.706)" fill="url(#linear-gradient)"/>
+    <path id="Path_214" data-name="Path 214" d="M3118.531,121.538c-28.655,10.28-493.949,9.053-493.949,9.053s154.081-4.387,244.91-14.071,35.973-29.084,114.62-27.05S3147.186,111.257,3118.531,121.538Z" transform="translate(-255.983 84.34)" opacity="0.59" fill="url(#linear-gradient)"/>
+    <path id="Path_215" data-name="Path 215" d="M3393.5,70.283s-302.343,65.247-459.3,76.722,188.922-41.185,85.388-52.7-392.339,32-392.339,32,129.6-18.218,199.091-45.38S3070.149,38.878,3167.9,38.139s-111.879,50.73-43.369,53.214C3267.413,96.534,3393.5,70.283,3393.5,70.283Z" transform="translate(-1992.835 65.414)" fill="url(#linear-gradient)"/>
+  </g>
+</svg></div>
+<div class="clouds1">
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2089.455 280.963">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.351" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#000654"/>
+      <stop offset="1" stop-color="#ba00ae"/>
+    </linearGradient>
+  </defs>
+  <g id="Clouds1" transform="matrix(0.998, -0.07, 0.07, 0.998, -571.135, 81.783)">
+    <path id="Path_213" data-name="Path 213" d="M2622.54,162.294c0,4.882-14.125-14.015,373.413-20.942s602.239,23.289,596.134,7.135-329.425-59.888-485.3-56.1,551.226,38.9,340.351,48.968c-68.324,3.262-348.982-21.674-451.181-19.529C2782.808,126.3,2622.54,157.412,2622.54,162.294Z" transform="translate(-1403.13 77.303)" opacity="0.60" fill="url(#linear-gradient)"/>
+    <path id="Path_215" data-name="Path 215" d="M2627.251,65.9s451.013,56.353,685.149,66.264-281.82-35.571-127.375-45.513,585.261,27.64,585.261,27.64S3576.958,98.556,3473.3,75.1s-363.693-36.321-509.5-36.959,166.894,43.814,64.693,45.96C2815.341,88.573,2627.251,65.9,2627.251,65.9Z" transform="translate(-1117.113 65.414)" opacity="0.74" fill="url(#linear-gradient)"/>
+    
+  </g>
+</svg>
+</div>
 <section class="welcome">
 	<div class="seeking-wrap">
 	<h1>Seeking All <span class="pink">Talent</span>!</h1>
@@ -331,6 +358,38 @@
   easing: 'linear',
   loop: true
 });	
+</script>
+<script>
+	anime({
+  targets: '.cloud-move', 
+  
+  keyframes: [
+    {translateX:'-500', opacity: '50%'},
+    {translateX:'-1000', opacity: '0%'},
+    
+    
+  ],
+ delay: anime.stagger(100),
+  duration: 12000,
+  easing: 'linear',
+  loop: true
+});
+</script>
+<script>
+	anime({
+  targets: '.clouds1', 
+  
+  keyframes: [
+    {translateX:'-300', opacity: '70%'},
+    {translateX:'-1000', opacity: '0%'},
+    
+    
+  ],
+ delay: anime.stagger(100),
+  duration: 20000,
+  easing: 'linear',
+  loop: true
+});
 </script>
 
 
