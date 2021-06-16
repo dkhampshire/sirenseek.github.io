@@ -206,6 +206,7 @@ background-attachment:  fixed;
 .clouds svg{
 	
 	width: 100%;
+	min-width: 1920px;
 	height: 300px;
 	top: -9em;
 	right: 0;
@@ -215,9 +216,10 @@ background-attachment:  fixed;
 }
 .clouds1 svg{
 	width: 100%;
+	min-width: 1920px;
 	height: 300px;
-	top: 16em;
-	left: 50em;
+	top: 20em;
+	left: 100em;
 	position: absolute;
 	z-index: 1;
 
@@ -346,28 +348,28 @@ background-attachment:  fixed;
 	z-index: 5;
 }
 
-.what-bubbles-right{
-	background-image: url(../images/what-bubbles.svg);
+.what-bubbles-right svg{
+	
 	width: 9%;
-	background-repeat: no-repeat;
+
 	height: 550px;
 	bottom: 550px;
 	right: 5%;
 	position: absolute;
 	z-index: 3;
-	opacity: 70%;
+	
 }
-.what-bubbles-left{
-	background-image: url(../images/what-bubbles.svg);
+.what-bubbles-left svg{
+	
 	width: 9%;
-	background-repeat: no-repeat;
+	
 	height: 550px;
 	bottom: 650px;
 	left: 5%;
 	transform: scaleX(-1);
 	position: absolute;
 	z-index: 3;
-	opacity: 70%;
+	
 	
 }
 
@@ -1087,13 +1089,10 @@ text-align: left;
 	transform: translate(-50%);
 		
 	}	
-	.clouds{
+	.clouds svg{
 		left:-2em;
 		right:2em;
-		top: -3em;
-		
-		
-			
+		top: -12em;
 			
 	}
 	 .welcome{
@@ -1217,6 +1216,7 @@ text-align: left;
 	}
 	.clouds1 svg{
 		left:0;
+		top:22em;
 	}
 	
 }
@@ -1244,6 +1244,10 @@ text-align: left;
   	transform-box: fill-box;
 
 
+}
+.hammer{
+	transform-origin: 80px 80px;
+  	transform-box: fill-box;
 }
 
 

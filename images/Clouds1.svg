@@ -1,13 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2089.455 280.963">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="842.306" height="169.243" viewBox="0 0 842.306 169.243">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.351" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" x1="-0.797" y1="0.724" x2="0.922" y2="0.671" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#000654"/>
       <stop offset="1" stop-color="#ba00ae"/>
     </linearGradient>
   </defs>
-  <g id="Clouds1" class="Clouds1" transform="matrix(0.998, -0.07, 0.07, 0.998, -571.135, 81.783)">
-    <path id="Path_213" data-name="Path 213" d="M2622.54,162.294c0,4.882-14.125-14.015,373.413-20.942s602.239,23.289,596.134,7.135-329.425-59.888-485.3-56.1,551.226,38.9,340.351,48.968c-68.324,3.262-348.982-21.674-451.181-19.529C2782.808,126.3,2622.54,157.412,2622.54,162.294Z" transform="translate(-1403.13 77.303)" opacity="0.49" fill="url(#linear-gradient)"/>
-    <path id="Path_215" data-name="Path 215" d="M2627.251,65.9s451.013,56.353,685.149,66.264-281.82-35.571-127.375-45.513,585.261,27.64,585.261,27.64S3576.958,98.556,3473.3,75.1s-363.693-36.321-509.5-36.959,166.894,43.814,64.693,45.96C2815.341,88.573,2627.251,65.9,2627.251,65.9Z" transform="translate(-1117.113 65.414)" opacity="0.74" fill="url(#linear-gradient)"/>
-    <path id="Path_306" data-name="Path 306" d="M2627.251,53.037S3001.994,83.285,3196.537,88.6,2962.374,69.512,3090.7,64.175,3576.99,79.011,3576.99,79.011s-160.635-8.446-246.766-21.038-302.19-19.5-423.344-19.839,138.671,23.518,53.753,24.67C2783.534,65.206,2627.251,53.037,2627.251,53.037Z" transform="matrix(1, -0.017, 0.017, 1, -2068.107, 195.354)" opacity="0.36" fill="url(#linear-gradient)"/>
+  <g id="Clouds1" transform="matrix(0.035, 0.999, -0.999, 0.035, 840.329, -41.967)">
+    <path id="Path_306" data-name="Path 306" d="M14.82,849.062c13.6,247.5,30.748,302.669,98.208,144.332S41.118,679.743,43.083,647.961c.589-9.522,24.376,36.081,45.059,67.262,26.165,39.446,58.429,152.266,52.444-53.559s-65.71-51.19-77.741-154.321C40.391,314.855-9.68,222.77-12.907,246.5S1.222,601.561,14.82,849.062Z" transform="translate(141.118 1088.484) rotate(-177)" fill="url(#linear-gradient)"/>
   </g>
 </svg>
