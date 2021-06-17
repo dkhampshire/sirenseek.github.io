@@ -372,6 +372,11 @@ background-attachment:  fixed;
 	
 	
 }
+.bubble-flow g{
+	position: absolute;
+	width: 100%;
+}
+
 
 
 .what-pad {

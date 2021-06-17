@@ -18,7 +18,7 @@
       <stop offset="1" stop-color="#0080ff"/>
     </radialGradient>
   </defs>
-  <g id="Food_Service" data-name="Food Service" transform="translate(0 0)">
+  <g id="Food_Service_morph" data-name="Food Service morph" transform="translate(0 0)">
     <path id="Path_29" data-name="Path 29" d="M63.427,0a63.427,63.427,0,1,1-44.85,18.577A63.427,63.427,0,0,1,63.427,0Z" transform="translate(0 0)" fill="#8ccec3"/>
     <path id="Path_38" data-name="Path 38" d="M63.427,0a63.427,63.427,0,1,1-44.85,18.577A63.427,63.427,0,0,1,63.427,0Z" transform="translate(0 0)" fill="url(#radial-gradient)" style="mix-blend-mode: color;isolation: isolate"/>
     <g id="bowl" transform="translate(34.7 17.758)">
@@ -33,16 +33,16 @@
         <path id="Path_303-2" data-name="Path 303" d="M616.426,1241.843c0-2.2,14.415-2.938,28.831-2.938s28.831.734,28.831,2.938-14.415,5.877-28.831,5.877S616.426,1244.047,616.426,1241.843Z" transform="translate(-616.426 -1195.629)" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
       </g>
     </g>
-    <g id="behind_chop" data-name="behind chop" transform="translate(34.7 17.758)">
+    <g id="behind_chop" data-name="behind chop" transform="translate(33.446 50.991) rotate(-45)">
       <path id="Path_304" data-name="Path 304" d="M0,1.928c-.1-2.726,1.644-2.5,2.326.3S9.258,55.212,8.676,55.137.1,4.654,0,1.928Z" transform="matrix(0.358, 0.934, -0.934, 0.358, 58.683, 0)" fill="#3135f2"/>
       <path id="Path_304-2" data-name="Path 304" d="M0,1.928c-.1-2.726,1.644-2.5,2.326.3S9.258,55.212,8.676,55.137.1,4.654,0,1.928Z" transform="matrix(0.358, 0.934, -0.934, 0.358, 58.683, 0)" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
     </g>
-    <g id="noodles" transform="translate(34.7 17.758)">
-      <path id="Path_300" data-name="Path 300" d="M634.971,1248.98s6.067-.679,5.421-6.066-8-10.845-8-15.48,7.208-9.269,7.208-9.269" transform="translate(-612.38 -1205.552)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
-      <path id="Path_301" data-name="Path 301" d="M1.766,36.795C1.644,32.8-1.805,24.822,1.278,20.819s8.573.8,13.442-4.572S16.931,0,16.931,0" transform="translate(10.753 18.503) rotate(-30)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
-      <path id="Path_302" data-name="Path 302" d="M3.115,32.9s4.871.972,4.092-4.341S0,17.471,0,11.647,7.885,0,7.885,0" transform="matrix(0.985, -0.174, 0.174, 0.985, 22.614, 14.464)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
+    <g id="noodles" transform="translate(35.7 20.376)">
+      <path id="Path_300" data-name="Path 300" d="M625.4,1249.392s19.293,8.948,18.647,3.562-21.8-.912-21.8-5.547,10.863,1.334,10.863,1.334" transform="translate(-756.301 -1119.385) rotate(-7)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_301" data-name="Path 301" d="M24.106,14.92C23.431,11.885-2.049,2.9.218.31S22.43,17.828,26.145,14.459,4.036,1.695,4.036,1.695" transform="translate(18.185 45.198) rotate(-30)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_302" data-name="Path 302" d="M10.06,1.889S36.923,11.233,36.331,4.4s-23.045,5.283-28.6-1.41S26.26.917,26.26.917" transform="matrix(0.985, -0.174, 0.174, 0.985, 1.41, 43.925)" fill="none" stroke="#ffefff" stroke-linecap="round" stroke-width="3"/>
     </g>
-    <g id="front_chop" data-name="front chop" transform="translate(34.7 17.758)">
+    <g id="front_chop" data-name="front chop" transform="matrix(0.848, -0.53, 0.53, 0.848, 35.054, 47.911)">
       <path id="Path_305" data-name="Path 305" d="M0,1.927C-.036-.784,1.876-.581,2.551,2.2S8.745,54.836,8.107,54.768.038,4.638,0,1.927Z" transform="translate(66.843 8.451) rotate(79)" fill="#3135f2"/>
       <path id="Path_305-2" data-name="Path 305" d="M0,1.927C-.036-.784,1.876-.581,2.551,2.2S8.745,54.836,8.107,54.768.038,4.638,0,1.927Z" transform="translate(66.843 8.451) rotate(79)" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
     </g>
