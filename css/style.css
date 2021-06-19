@@ -627,8 +627,8 @@ flex-wrap: wrap;
 	padding-bottom: 2em;
 	
 }
-.employer-fish img{
-	width: 500px;
+.employer-fish svg{
+	width: 600px;
 	z-index: 3;
 	display: block;
 	position: absolute;
@@ -975,12 +975,12 @@ text-align: left;
 		padding-bottom: 3rem;
 	}
 	
-	.employer-fish img{
+	.employer-fish svg{
 	opacity: 10%;
 	width: 1300px;
 	top:-14%;
 	left:43%;
-		transform: translateX(-50%) rotate(-160deg) skew(-30deg, 40deg);
+	transform: translateX(-50%) rotate(-160deg) skew(-30deg, 40deg);
 	margin: 0 auto;
 	position: fixed;
 	}
@@ -1244,7 +1244,7 @@ text-align: left;
 }
 
 /*---------anime.js classes-------*/
-.plus, .big-gear, .small-gear, .erp-flow{
+.plus, .big-gear, .small-gear, .erp-flow, .hashi, .fish-swirl{
 	transform-origin: 50% 50%;
   	transform-box: fill-box;
 
@@ -1252,6 +1252,10 @@ text-align: left;
 }
 .hammer{
 	transform-origin: 80px 80px;
+  	transform-box: fill-box;
+}
+.soba{
+	transform-origin: 50% 25px;
   	transform-box: fill-box;
 }
 
