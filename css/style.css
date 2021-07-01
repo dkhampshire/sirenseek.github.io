@@ -238,7 +238,7 @@ background-attachment:  fixed;
 }
 .welcome{			
 	display: inline-block;
-	padding:9.375rem 0 0 0;
+	padding:10.375rem 0 0 0;
 	position: relative;
 	
 
@@ -265,8 +265,9 @@ background-attachment:  fixed;
 	box-sizing: border-box;
 	height: 2.5rem;
 	border-radius: 5rem;
-	margin: 0 auto;
+	margin: 0 1.219rem;
 	transition: 0.8s;
+
 
 }
 .button-blue button{display: block;
@@ -283,31 +284,37 @@ background-attachment:  fixed;
 	height: 2.5rem;
 	border-radius: 5rem;
 	transition: 0.8s;
-	margin: 0 auto;
+	margin: 0 1.219rem;
 }
 
 
-.scroller {
+.scroller{
 	pointer-events:auto;
 	z-index: 3;
 	box-sizing: border-box;
-	width:2.438rem;
-	height:2.313rem;
-	top: 3.125rem;
-	position: relative;
+  width: 4rem;
+	height: 4rem;
+	top: 8rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
 	transition: .8s;
+
+	
 }
 .scroller svg{
 	fill: #E9F1F2;
-	
 }
-.scroller svg:hover{
+	
+
+.scroller svg hover{
 	fill: transparent;
 	stroke:#E9F1F2;
 	
 }
-.scroller:hover{
-	width: 3rem;
+.scroller svg:hover{
+	transform: scale(.8);
+	
 }
 
 .seeking-wrap {
@@ -350,10 +357,10 @@ background-attachment:  fixed;
 
 .what-bubbles-right svg{
 	
-	width: 9%;
+	width: 6%;
 
 	height: 550px;
-	bottom: 550px;
+	bottom: 600px;
 	right: 5%;
 	position: absolute;
 	z-index: 3;
@@ -361,10 +368,10 @@ background-attachment:  fixed;
 }
 .what-bubbles-left svg{
 	
-	width: 9%;
+	width: 6%;
 	
 	height: 550px;
-	bottom: 650px;
+	bottom: 600px;
 	left: 5%;
 	transform: scaleX(-1);
 	position: absolute;
@@ -380,7 +387,7 @@ background-attachment:  fixed;
 
 
 .what-pad {
-	padding: 1.4rem 2em;
+	padding: 1.4rem 0rem;
 	position: relative;
 	margin: 0 auto;
 	width: 52%;
@@ -391,7 +398,7 @@ background-attachment:  fixed;
 .what-we-do {
 	max-width: 4000px;
 	width: 100%;
-	min-height: 1737px;
+	min-height: 1637px;
 	margin-top: -100px;
 	position: relative;
 	display: block;
@@ -412,7 +419,7 @@ background-attachment:  fixed;
 	justify-content: center;
 	text-align: center;
 	align-content: center;
-	padding: 0 7rem;
+	padding: 0 5rem;
 	margin: 0 auto; 
 
 
@@ -542,7 +549,7 @@ flex-wrap: wrap;
 }
 .copyright p{
 	
-	
+	font-size: 14px;
 	height: auto;
 	display: block;
 	align-self: center;
@@ -614,7 +621,7 @@ flex-wrap: wrap;
 	width: 600px;
 	display: block;
 	text-align: center;
-	padding-left: 9.5em;
+	padding-left: 9.5rem;
 	z-index: 2;
 }
 .employer h2{
@@ -720,31 +727,35 @@ flex-wrap: wrap;
 }
 .about-bg{
 	position: relative;
-	padding: 0 7em 0 7em;
+	padding: 0 7rem 0 10rem;
 	background-position:center;
 	background-size: cover;
 	max-width: 100%;
 	top:100px;
 	bottom: 0;
-	min-height: 3000px;
+	min-height: 2600px;
 	background-repeat: no-repeat;
 	background-image: url(../images/ship.svg);
-	overflow-x: hidden;
+	overflow-x: hidden; 
 
 }
 .about{
 	
 	position: relative;
-	width: 700px;
+	width: 500px;
 	display: block;
 	text-align: left;
-	padding: 16.5rem 0 0 0 ;
+	padding: 10.375rem 0 0 0 ;
+	
 }
 .about p{
-	padding-bottom: 2em;
+	padding-bottom: 2rem;
 text-align: left;
 	padding-top: 2rem;
 	max-width: 40rem;
+	
+	
+	
 }
 .about h1{
 	height: 0;
@@ -933,9 +944,14 @@ text-align: left;
 	}
 	.what-we-do{
 		min-height: 0px;
-		padding: 750px 0 0 0;
+		padding: 650px 0 100px 0;
 		background-origin: border-box;
 	}
+	.services-wrap{
+		padding: 1rem 7rem 7rem 7rem;
+		width: 100%;
+	}
+	
 }
 
 @media only screen and (max-width: 1200px){
@@ -962,7 +978,7 @@ text-align: left;
 	}
 	
 	.services-wrap{
-		padding: 3em 2em;
+		padding: 1rem 2rem 10rem 2rem;
 		width: 90%;
 	}
 
@@ -971,8 +987,8 @@ text-align: left;
 		min-height: 1000px;
 	}
 	.what-pad{
-		width: 80%;
-		padding-bottom: 3rem;
+		width: 75%;
+		padding-bottom: 1rem;
 	}
 	
 	.employer-fish svg{
@@ -1002,7 +1018,7 @@ text-align: left;
 		margin-top:-25%
 	}
 	.about-bg{
-		padding: 0 7em 0 7em;
+		padding: 0 7rem 0 10rem;
 	}
 	.about{
 		padding: 16.5rem 0;
@@ -1045,16 +1061,22 @@ text-align: left;
 
 	nav li{
 		margin: 0 auto;
-		border: 1px solid #EA2996;
-		width: 14.375rem;
-		height:auto;
+	
+		width: 100%;
+		height: auto;
 		display: block;
 		text-align: left;
-		background:#EA2996;
-		padding-left: 1.2rem;
-		padding-top: .2rem;
-		padding-bottom: .2rem;
+		background: linear-gradient(90deg, hsla(251, 97%, 11%, 1) 0%, hsla(251, 97%, 11%, 0) 75%);
+		padding-left: 1rem;
+		padding-right: 250px;
+		padding-top: .5rem;
+		padding-bottom: .1rem;
+		
 
+
+	}
+	nav li a{
+		white-space: nowrap;
 	}
   
 	.hamburger{
@@ -1067,6 +1089,8 @@ text-align: left;
 .header{
   	padding:0 2em;
   	justify-content: space-around;
+	
+		
   }
   .logo img{
   	width: 100%;
@@ -1077,12 +1101,13 @@ text-align: left;
 .what-we-do{
 	background-position: center;
 	background-size: cover;
-  padding: 650px 0 0 0;
+  padding: 500px 0 0 0;
+	top: 1rem;
 	
 		
 }
 	.services-wrap{
-		padding: 1em 2em 7rem 2em;
+		padding: 1rem 2rem 7rem 2rem;
 		width: 100%;
 	}
 
@@ -1128,7 +1153,9 @@ text-align: left;
   	font-size: 1.5rem;
   }
 	.services{
-		margin: 1rem 5%;
+		margin: 1rem 0;
+		padding: 0 1rem;
+		
 		width: 100%;}
 		.services p{
 			padding:  1rem 0 1rem 0;
@@ -1156,6 +1183,9 @@ text-align: left;
 	.about{
 		padding-bottom: 0;
 	}
+	.about-bg{
+		padding: 0 7rem 0 7rem;
+	}
 	
 	
 }
@@ -1180,7 +1210,8 @@ text-align: left;
 	.footer-right{
   		margin-top: 30px;
   	}
-  	 .copyright p{margin-top:30px;
+  	 .copyright p{margin-bottom: 10px;
+			 
   	 	}
   	 .copyright{
 			 order:3;
@@ -1193,12 +1224,14 @@ text-align: left;
   	}
   	.footer-left, .footer-right{
   		margin: 0 auto;
-  		width: 250px;
+  		width: 210px;
+			padding-bottom: 2rem;
   	}
 
   	.home-foot{
   		margin-top: -4px;
   	}
+	
 	.seeker-bg{
 		min-height: 900px;
 	}
@@ -1233,7 +1266,7 @@ text-align: left;
 		padding: 0;
 	}
 	.what-we-do{
-		padding: 700px 0 0 0;
+		padding: 600px 0 0 0;
 		background-position-x: 70%;
 		background-size: 100% 100%;
 		-webkit-background-size: 1920px 100%;
