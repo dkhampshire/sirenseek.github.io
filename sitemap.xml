@@ -1,27 +1,18 @@
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9“> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 	<url>
-
 		<loc>https://sirenseek.com/</loc>
-
 	</url>
 	<url>
-
 		<loc>https://sirenseek.com/pages/Employers</loc>
-
 	</url>
 	<url>
-
 		<loc>https://sirenseek.com/pages/Job-Seekers</loc>
-
 	</url>
 	<url>
-
 		<loc>https://sirenseek.com/pages/About</loc>
-
 	</url>
 	<url>
-
 		<loc>https://sirenseek.com/pages/thankyou</loc>
-
 	</url>
 </urlset>
