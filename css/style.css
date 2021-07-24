@@ -621,7 +621,7 @@ flex-wrap: wrap;
 	width: 600px;
 	display: block;
 	text-align: center;
-	padding-left: 9.5rem;
+	padding-left: 7rem;
 	z-index: 2;
 }
 .employer h2{
@@ -632,7 +632,8 @@ flex-wrap: wrap;
 }
 .employer p{
 	padding-bottom: 2em;
-	
+	margin: auto;
+	width:85%;
 }
 .employer-fish svg{
 	width: 600px;
