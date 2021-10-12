@@ -1110,7 +1110,7 @@ opacity:1;pointer-events: none;
   }
   .logo img{
   	width: 100%;
-  	height: auto;
+  	height: 100%;
   }
 #act{color:#E9F1F2;}
 
