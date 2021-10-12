@@ -1,4 +1,12 @@
-/* mobile menu*/
+
+//preloader animation fade//
+var loader = document.querySelector(".pageloader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+	loader.classList.add("disappear");
+};/* mobile menu*/
 const hamburger = document.getElementById('hamburger');
 const navUL = document.getElementById('nav-ul');
 
