@@ -252,11 +252,12 @@ background-attachment:  fixed;
 	z-index: 10;
 	position: relative;
 }
-.button-pink button{display: block;
+.button-pink button{
+	display: block;
 	color: #E9F1F2;
 	background-color:#EA2996;
 	font-size: 17px;
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-weight: 500;
 	text-decoration: none;
@@ -267,8 +268,6 @@ background-attachment:  fixed;
 	border-radius: 5rem;
 	margin: 0 1.219rem;
 	transition: 0.8s;
-
-
 }
 .button-blue button{display: block;
 	color: #E9F1F2;
@@ -303,17 +302,14 @@ background-attachment:  fixed;
 	
 }
 .scroller svg{
-	fill: #E9F1F2;
+	fill: #e9f1f2;
+	stroke:#e9f1f2;
+	transition: .5s ease;
 }
 	
-
-.scroller svg hover{
-	fill: transparent;
-	stroke:#E9F1F2;
-	
-}
 .scroller svg:hover{
-	transform: scale(.8);
+	transform: scale(.8);transition: .5s ease;fill: transparent;
+	stroke:#E9F1F2;
 	
 }
 
@@ -335,7 +331,6 @@ background-attachment:  fixed;
 	color:#EA2996;
 	border: 2px solid #EA2996;
 	background-color: transparent;
-
 }
 .button-blue button:hover {
 	color:#297CEA;
@@ -634,6 +629,8 @@ flex-wrap: wrap;
 	padding-bottom: 2em;
 	margin: auto;
 	width:85%;
+
+	
 }
 .employer-fish svg{
 	width: 600px;
@@ -651,7 +648,7 @@ flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
 	padding-bottom: 5rem;
-
+	/* flex-wrap: wrap; */
 }
 
 .employer .button-pink button {
@@ -737,26 +734,20 @@ flex-wrap: wrap;
 	min-height: 2600px;
 	background-repeat: no-repeat;
 	background-image: url(../images/ship.svg);
-	overflow-x: hidden; 
-
+	overflow-x: hidden;
 }
 .about{
-	
 	position: relative;
 	width: 500px;
 	display: block;
 	text-align: left;
-	padding: 10.375rem 0 0 0 ;
-	
+	padding: 10.375rem 0 0 0;
 }
 .about p{
 	padding-bottom: 2rem;
-text-align: left;
+	text-align: left;
 	padding-top: 2rem;
 	max-width: 40rem;
-	
-	
-	
 }
 .about h1{
 	height: 0;
@@ -775,8 +766,6 @@ text-align: left;
 	height: auto;
 	align-items: center;
 	justify-content: space-between;
-	
-
 }
 #fish img{
 	width: 350px;
@@ -928,6 +917,33 @@ text-align: left;
 	
 	position: absolute;
 }
+/*--preloader--*/
+.pageloader{
+	background:black url('../images/Preload-Logo.svg') no-repeat center center;
+	position: fixed;
+	z-index:1000;
+	background-size: 15%;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+
+
+opacity:1;pointer-events: none;
+}
+.disappear{
+	animation: loader 300ms ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes loader{
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;display:none;
+	}
+
+}
 /*------Media-------*/
 @media only screen and (max-width: 1400px){
 	.sun{
@@ -958,7 +974,8 @@ text-align: left;
 @media only screen and (max-width: 1200px){
 
 .what-bubbles-left, .what-bubbles-right{
-	display: none;}
+	bottom:unset;
+	}
 
 
 .scroller{
@@ -985,7 +1002,6 @@ text-align: left;
 
 	.what-we-do{
 		padding:600px 0 0 0;
-		min-height: 1000px;
 	}
 	.what-pad{
 		width: 75%;
@@ -1016,13 +1032,13 @@ text-align: left;
 
 	.about-pic{
 		padding: 0 2em;
-		margin-top:-25%
+		margin-top:-25%;
 	}
 	.about-bg{
-		padding: 0 7rem 0 10rem;
+		padding: 16.5rem 10rem 0 10rem;
 	}
 	.about{
-		padding: 16.5rem 0;
+		padding: 0 ;
 		
 	}
 
@@ -1100,13 +1116,12 @@ text-align: left;
 #act{color:#E9F1F2;}
 
 .what-we-do{
-	background-position: center;
-	background-size: cover;
-  padding: 500px 0 0 0;
+	background: linear-gradient(180deg, rgba(1,5,84,1) 0%, rgba(220,0,116,1) 100%);
+	min-height:0;
 	top: 1rem;
-	
-		
+	padding-top:1rem;
 }
+
 	.services-wrap{
 		padding: 1rem 2rem 7rem 2rem;
 		width: 100%;
@@ -1114,10 +1129,10 @@ text-align: left;
 
 	.sun{
 		opacity: 100%;
-	
-	top:100%;
+	z-index:-2;
+	top:10%;
 	left: 50%;
-	transform: translate(-50%);
+	transform: translate(-50%, -10%);
 		
 	}	
 	.clouds svg{
@@ -1127,7 +1142,9 @@ text-align: left;
 			
 	}
 	 .welcome{
-  	padding: 6.375rem 0 0 0;
+    background-image: url(../images/waves.svg);
+		background-size:cover;
+  	padding:15rem 0 8rem 0;
   	width: 100%;
   }
 
@@ -1140,18 +1157,19 @@ text-align: left;
 
 
   }
+  .wrapper{padding:5rem 0;}
 	.job-seeker{
 			padding-right: 2em;
 	padding-left: 2em;
 	}
 	h1 {
-  	font-size: 2.5rem;
+  	font-size: 2rem;
   }
   h1::after{
   	height: 3px;
   }
 	 h2{
-  	font-size: 1.5rem;
+  	font-size: 1rem;
   }
 	.services{
 		margin: 1rem 0;
@@ -1164,50 +1182,58 @@ text-align: left;
 			line-height: 1.4rem;
 		}
     
-	p{line-height: 2.5rem;}
+	p{line-height: 2.5rem;font-size:1rem;}
 
 	.about p{
 		width: 100%;
 	}
 
 .services object, .services svg{
-	width: 6rem;
-	
+	width: 5rem;
 }
-	.about-pic {
-	display: none;
+.about{
+	text-align:center;width:100%;
+}
+	.about-pic{
+		margin:0 auto;
+	padding:0 0 5rem 0;
 		
 	}
 	.about p{
 		max-width: 100%;
-	}
-	.about{
-		padding-bottom: 0;
-	}
-	.about-bg{
-		padding: 0 7rem 0 7rem;
+		text-align:center;
 	}
 	
+	.about-bg{
+		padding: 1rem 2rem 0 2rem;
+	}
+	.wrap{flex-wrap:wrap-reverse;padding-bottom:1rem;}
+	.about-pic img{
+	width: 200px;
+	z-index: 3;
+	padding: 3rem 0rem;
+	top: 100px;
+	position: relative;
+	
+}
+.about-bg div:nth-child(2){flex-wrap:wrap;}
+#fish img{
+	width: 200px;
+}
+#turtle img{
+	width: 200px;
+	top: 100px;
+}
 	
 }
 @media only screen and (max-width: 768px){
-
-	.what-we-do{
-		padding: 600px 0 0 0;
-		background-position-x: 50%;
-		margin-top: -100px;
-
-	}	
-
-	.sun{
-		display: none;
+    .what-bubbles-left, .what-bubbles-right{
+	display:none;
 	}
 	.seeking-wrap{
 		padding:0;
 	}
-	.wrapper{
-		padding: 0 2em 0 2em;
-	}
+	
 	.footer-right{
   		margin-top: 30px;
   	}
@@ -1251,30 +1277,44 @@ text-align: left;
 		text-align: center;
 	}
 	.about-bg{
-		padding: 0 2em;
+		padding:1rem 2rem 10rem 2rem;min-height:unset;
 	}
+	.about-pic img{
+		width:100px;padding-top:0;
+	}
+	#fish img{width:100px;padding-top:0;}
+	#turtle img{width:100px;padding-top:0;}
 	.clouds1 svg{
 		left:0;
 		top:22em;
 	}
+	.button-blue button{
+	width:7rem;height:2rem;font-size:1rem;
+}
+.button-pink button{
+	width:7rem;height:2rem;font-size:1rem;
+}
 	
 }
 @media only screen and (max-width: 568px){
-	.what-pad{
-		width: 100%;
-	}
+	
 	.services-wrap{
 		padding: 0;
 	}
 	.what-we-do{
-		padding: 600px 0 0 0;
-		background-position-x: 70%;
-		background-size: 100% 100%;
-		-webkit-background-size: 1920px 100%;
-      -moz-background-size: 1920px 100%;
-      -o-background-size: 1920px 100%;
-		margin-top: -100px;
+		padding-bottom:3rem;
 			}	
+}
+@media only screen and (max-width: 375px){
+
+	.welcome{
+		padding:15rem 0 3rem 0;
+	}
+	.seeker-bg .button-blue, .seeker-bg .button-pink{
+		padding:0;
+	}
+	
+
 }
 
 /*---------anime.js classes-------*/
