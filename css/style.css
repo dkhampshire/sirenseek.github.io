@@ -239,7 +239,7 @@ background-attachment:  fixed;
 	display: inline-block;
 	padding:10.375rem 0 0 0;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 .button-wrap{
 	display: flex;
@@ -354,7 +354,7 @@ background-attachment:  fixed;
 	bottom: 600px;
 	right: 5%;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 }
 .what-bubbles-left svg{
 	width: 6%;
@@ -363,7 +363,7 @@ background-attachment:  fixed;
 	left: 5%;
 	transform: scaleX(-1);
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 }
 .bubble-flow g{
 	position: absolute;
